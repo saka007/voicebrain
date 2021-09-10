@@ -1,0 +1,489 @@
+/* Latop Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG  Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
+        right: 6%;
+    }
+
+    .subscribe-title h3 {
+        font-size: 30px;
+    }
+
+    .subscribe-form-box input {
+        width: 51%;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.header-search {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 25px 0 10px 0;
+        border-right: none;
+    }
+
+    .merox-slider-area-content h2 {
+        font-size: 50px;
+    }
+
+    .about-img-area {
+        margin-bottom: 50px;
+    }
+
+    .mean-container .mean-nav ul li a i {
+        display: none;
+    }
+
+    .merox-video-area .section-title,
+    .merox-services-area .section-title {
+        margin: 0 0 50px;
+    }
+
+    .merox-services-area .order-2 {
+        order: 0;
+    }
+
+    .merox-video-area .order-2 {
+        order: 0;
+    }
+
+    .subscribe-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* error */
+    .merox-content-box h3 {
+        font-size: 40px;
+    }
+
+    .error-form-box {
+        margin: 0 90px;
+    }
+
+    /* blog pagination */
+    .merox-blog-area .col-xl-4.col-lg-4 {
+        margin-top: 50px;
+    }
+
+    /* contact us */
+    .appnox-contact-form-area {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+/* small mobile (XS) :320px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    ul.header-search {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 25px 0 10px 0;
+        border-right: none;
+    }
+
+    .merox-slider-area-content h2 {
+        font-size: 45px;
+    }
+
+    .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
+        right: 0;
+        bottom: 5%;
+        left: 0;
+        top: 90%;
+    }
+
+    .merox-main-slider.owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+    }
+
+    .about-img-area {
+        margin-bottom: 50px;
+    }
+
+    .mean-container .mean-nav ul li a i {
+        display: none;
+    }
+
+    .merox-video-area .section-title,
+    .merox-services-area .section-title {
+        margin: 0 0 50px;
+    }
+
+    .merox-services-area .order-2 {
+        order: 0;
+    }
+
+    .services-box {
+        padding: 50px 40px;
+    }
+
+    .merox-video-area .order-2 {
+        order: 0;
+    }
+
+    .subscribe-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box {
+        text-align: center;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li i {
+        float: inherit;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li {
+        margin-bottom: 15px;
+    }
+
+    .footer-single-wedget .widget_nav_menu {
+        margin-left: 0;
+    }
+
+    /* error */
+    .error-form-box {
+        margin: 0;
+    }
+
+    /* blog pagination */
+    .merox-blog-area .col-xl-4.col-lg-4 {
+        margin-top: 50px;
+    }
+
+    .merox-blog-area .col-xl-8.col-lg-8.pr-30 {
+        padding-right: 15px;
+    }
+
+    /* contact us */
+    .appnox-contact-form-area {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+}
+
+
+/* SM Device :480px. */
+@media (min-width: 361px) and (max-width: 575px) {
+    ul.header-search {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 25px 0 10px 0;
+        border-right: none;
+    }
+
+    .merox-slider-area-content h2 {
+        font-size: 42px;
+    }
+
+    .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
+        right: 0;
+        bottom: 5%;
+        left: 0;
+        top: 90%;
+    }
+
+    .merox-main-slider.owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+    }
+
+
+    .about-img-area {
+        margin-bottom: 50px;
+    }
+
+
+    .mean-container .mean-nav ul li a i {
+        display: none;
+    }
+
+    .merox-video-area .section-title,
+    .merox-services-area .section-title {
+        margin: 0 0 50px;
+    }
+
+    .merox-services-area .order-2 {
+        order: 0;
+    }
+
+    .services-box {
+        padding: 50px 40px;
+    }
+
+    .merox-video-area .order-2 {
+        order: 0;
+    }
+
+    .subscribe-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box {
+        text-align: center;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li i {
+        float: inherit;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li {
+        margin-bottom: 15px;
+    }
+
+    .footer-single-wedget .widget_nav_menu {
+        margin-left: 0;
+    }
+
+    /* error */
+    .error-form-box {
+        margin: 0;
+    }
+
+    /* blog pagination */
+    .breadcrumb-content-box h2 {
+        font-size: 60px;
+    }
+
+    .merox-blog-area .col-xl-4.col-lg-4 {
+        margin-top: 50px;
+    }
+
+    .merox-blog-area .col-xl-8.col-lg-8.pr-30 {
+        padding-right: 15px;
+    }
+
+    /* contact us */
+    .appnox-contact-form-area {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+}
+
+/* SM Device :480px. */
+@media (max-width: 360px) {
+    .section-title h3 {
+        font-size: 35px;
+    }
+
+    ul.header-search {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 25px 0 10px 0;
+        border-right: none;
+    }
+
+    .merox-slider-area-content {
+        margin-top: 0;
+    }
+
+    .merox-slider-area-content h2 {
+        font-size: 35px;
+    }
+
+    .merox-single-slider p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
+        right: 0;
+        bottom: 5%;
+        left: 0;
+        top: 90%;
+    }
+
+    .merox-single-slider {
+        height: 768px;
+    }
+
+    .slider-area-btn .btn:first-child {
+        margin-bottom: 30px;
+    }
+
+    .merox-main-slider.owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+    }
+
+
+    .about-img-area {
+        margin-bottom: 50px;
+    }
+
+
+    .mean-container .mean-nav ul li a i {
+        display: none;
+    }
+
+    .merox-video-area .section-title,
+    .merox-services-area .section-title {
+        margin: 0 0 50px;
+    }
+
+    .merox-services-area .order-2 {
+        order: 0;
+    }
+
+    .services-box {
+        padding: 30px 10px;
+    }
+
+    .merox-video-area .order-2 {
+        order: 0;
+    }
+
+    .cta-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 20px;
+    }
+
+    .single-blog-content .post-title {
+        font-size: 19px;
+    }
+
+    .single-blog-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .subscribe-title h3 {
+        font-size: 25px;
+    }
+
+    .subscribe-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-form-box {
+        text-align: center;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li i {
+        float: inherit;
+    }
+
+    .footer-single-wedget .custom-html-widget .contact-details li {
+        margin-bottom: 15px;
+    }
+
+    .footer-single-wedget .widget_nav_menu {
+        margin-left: 0;
+    }
+
+    /* error */
+    .merox-error-area {
+        margin: 50px 0;
+    }
+
+    .merox-content-box h3 {
+        font-size: 30px;
+    }
+
+    .error-form-box {
+        margin: 0;
+        text-align: center;
+    }
+
+    .error-form-box input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .error-form-box .btn {
+        margin-left: 0;
+    }
+
+    /* blog pagination */
+    .breadcrumb-content-box h2 {
+        font-size: 45px;
+    }
+
+    .merox-blog-area .col-xl-4.col-lg-4 {
+        margin-top: 50px;
+    }
+
+    /* blog details */
+    .blog-details-content h4 {
+        font-size: 20px;
+    }
+
+    .blog-details-content p {
+        font-size: 16px;
+    }
+
+    .blog-details-content h3 {
+        font-size: 20px;
+    }
+
+    blockquote p,
+    blockquote.wp-block-quote p {
+        font-size: 22px !important;
+    }
+
+    .merox-blog-area .pr-30 {
+        padding-right: 15px;
+    }
+
+    .comments-reply {
+        padding-left: 20px;
+    }
+
+    .merox-blog-area .col-xl-4.col-lg-4.col-md-4.col-sm-12 {
+        margin-top: 50px;
+    }
+
+    /* contact us */
+    .appnox-contact-form-area {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+}
