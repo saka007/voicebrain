@@ -2121,6 +2121,19 @@ ul.contact-info li a {
     .desktop-row-margin-top {
         margin-top: 0.5rem;
     }
+
+    .gallery-background {
+        background: url('assets/img/about/sec5.jpg');
+        background-size: cover;
+    }
+
+    .gallery-area {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .testimonial-img {
+        padding-left: 5rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {  
@@ -2205,6 +2218,17 @@ ul.contact-info li a {
 
     .custom-top-margin-mobile {
         margin-top: 50px !important;
+    }
+
+    .gallery-area .no-gutters>.col, .no-gutters>[class*=col-] {
+        margin-bottom: 1rem;
+    }
+
+    .hide-mt-mobile {
+        margin-top: 0;
+    }
+    .testimonial-wraper.owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 3rem !important;
     }
 }
 
