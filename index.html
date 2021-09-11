@@ -379,8 +379,12 @@
                         </div>
 
                         <div class="subscribe-form-box">
-                            <input class="form-control" placeholder="type your email" name="email" type="email">
-                            <button class="btn btn-type-1" type="submit">Download</button>
+                            <form class="form-inline subscribe-form-alignment" id="download-form" action="/voicebrain/download.html" method="GET">
+                                <div class="form-group">
+                                  <input name="email" id="email" value="" type="email" class="form-control-plaintext" placeholder="email@example.com" required=''/>
+                                </div>
+                                <button id="submit" type="submit" class="btn btn-type-1">DOWNLOAD</button>
+                            </form>
                         </div>
                     </div>
                 </div>

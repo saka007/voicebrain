@@ -345,7 +345,7 @@ label {
 
 .main-menu nav > ul > li:hover > a,
 .main-menu nav > ul > li.active > a {
-    color: #ff60a3;
+    color: #57bf42;
 }
 
 /* Sub Menu Css Style */
@@ -1223,7 +1223,7 @@ ul.about-content-list li i {
     transition: all .3s;
     margin: 0 4px;
     border-radius: 0;
-    border: 6px solid #ff2782;
+    border: 6px solid #57bf42;
     opacity: .5;
 }
 
@@ -1235,7 +1235,7 @@ ul.about-content-list li i {
     width: 20px;
     height: 20px;
     border-radius: 0;
-    border: 6px solid #ff2782;
+    border: 6px solid #57bf42;
 }
 
 .testimonial-wraper.owl-theme .owl-nav.disabled + .owl-dots {
@@ -1831,7 +1831,7 @@ blockquote.wp-block-quote cite:before {
     font-size: 15px;
     border-radius: 5px;
     border: none;
-    width: 61%;
+    /* width: 61%; */
     float: left;
     text-transform: capitalize;
 }
@@ -2229,6 +2229,11 @@ ul.contact-info li a {
     }
     .testimonial-wraper.owl-theme .owl-nav.disabled + .owl-dots {
         padding-top: 3rem !important;
+    }
+
+    .subscribe-form-alignment {
+        justify-content: center!important;
+        display: flex!important;
     }
 }
 

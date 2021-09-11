@@ -176,6 +176,15 @@
         		WOW active
         	------------------------------*/
 
+    $(document).ready(function(){
+        $('#download-form').on('submit', function() {
+                if ($('#email').val() == ""){
+                    alert('Please complete the field');
+                    return false;
+                } else { return true; }
+            });
+        });            
+
     new WOW().init();
 
 })(jQuery);
