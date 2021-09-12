@@ -352,7 +352,7 @@ label {
 /* Sub Menu Css Style */
 .main-menu nav > ul > li .sub-menu {
     background: #ffffff none repeat scroll 0 0;
-    border-top: 3px solid #ff60a3;
+    border-top: 3px solid #57bf42;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
     left: 0;
     opacity: 0;
@@ -379,7 +379,7 @@ label {
 }
 
 .main-menu nav > ul > li .sub-menu li a {
-    color: #666666;
+    color: #57bf42;
     font-size: 15px;
     font-weight: 600;
     margin: 0;
@@ -391,7 +391,7 @@ label {
 
 .main-menu nav > ul > li:hover > .sub-menu li > a:hover {
     color: #fff;
-    background: #ff60a3;
+    background: #57bf42;
 }
 
 /* Sub Menu Css Style */
@@ -2142,6 +2142,26 @@ ul.contact-info li a {
         margin: 0;
         margin-top: -3rem;
     }
+    .benefit-section1 {
+        background-image: url(assets/img/benefit/section1-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .btn-type-3 {
+        background: white;
+        color: #000000;
+        border-radius: 0;
+        padding: 1rem;
+    }
+    .btn-type-3:hover {
+        background: rgb(0, 0, 0);
+        color: #ffffff;
+        border-radius: 0;
+        padding: 1rem;
+    }
+    div#merox-slider-area.index, div#merox-slider-area.industry {
+        margin-bottom: 2rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {  
@@ -2233,7 +2253,7 @@ ul.contact-info li a {
         margin-top: 50px !important;
     }
 
-    .gallery-area .no-gutters>.col, .no-gutters>[class*=col-] {
+    .gallery-area .no-gutters>.col, .no-gutters>[class*=col-], .mobile-mb {
         margin-bottom: 1rem;
     }
 
@@ -2289,6 +2309,9 @@ ul.contact-info li a {
         margin: 0;
         margin-top: -1.5rem;
         width: 90%;
+    }
+    .subscribe-title h3 {
+        font-size: 25px;
     }
 }
 

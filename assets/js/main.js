@@ -121,7 +121,7 @@
 
     $(".testimonial-wraper").owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 1000,
         dots: true,
         nav: false,
