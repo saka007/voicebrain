@@ -19,6 +19,7 @@
         autoplay: true,
         dots: true,
         nav: false,
+        autoHeight:true,
         responsive: {
             0: {
                 items: 1

@@ -30,6 +30,7 @@
 
     .merox-slider-area-content h2 {
         font-size: 50px;
+        text-align: center;
     }
 
     .about-img-area {
@@ -93,7 +94,8 @@
     }
 
     .merox-slider-area-content h2 {
-        font-size: 45px;
+        font-size: 25px;
+        text-align: center;
     }
 
     .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
@@ -177,7 +179,10 @@
         margin-bottom: 50px;
     }
 
-
+    .merox-slider-area-content h2 {
+        font-size: 25px;
+        text-align: center;
+    }
 
 
 
@@ -196,7 +201,8 @@
     }
 
     .merox-slider-area-content h2 {
-        font-size: 42px;
+        font-size: 25px;
+        text-align: center;
     }
 
     .merox-main-slider.owl-theme .owl-nav.disabled + .owl-dots {
@@ -314,7 +320,8 @@
     }
 
     .merox-slider-area-content h2 {
-        font-size: 35px;
+        font-size: 25px;
+        text-align: center;
     }
 
     .merox-single-slider p {

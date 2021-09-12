@@ -546,10 +546,6 @@ ul.header-search li a:hover {
     background-image: url('assets/img/header/index.png');
 } */
 
-.slid-bg-1-index {
-    background-image: url('assets/img/header/index.png');
-}
-
 .slid-bg-1-product {
     background-image: url('assets/img/header/product.png');
 }
@@ -2031,14 +2027,18 @@ ul.contact-info li a {
 }
 
 @media only screen and (min-width: 768px) { 
+  
+  .slid-bg-1-index {
+        background-image: url('assets/img/header/index.png');
+   }
 
   .my-section-title {
       margin-bottom: 0px;
   }
-  /* .container-fluid {
-      padding-left: 0;
-      padding-right: 0;
-  } */
+  .appnox-contact-form-area {
+      width: 400px;
+      float: right;
+  }
   .hidemobile {
       display: none;
   }
@@ -2135,9 +2135,21 @@ ul.contact-info li a {
     .testimonial-img {
         padding-left: 5rem;
     }
+    .footer-logo {
+        float: right;
+        line-height: 0;
+        padding: 0;
+        margin: 0;
+        margin-top: -3rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {  
+
+    .slid-bg-1-index {
+        background-image: url('assets/img/header/index-mobile.jpg');
+    }
+
     .hidedesktop {
         display: none;
     }
@@ -2235,6 +2247,48 @@ ul.contact-info li a {
     .subscribe-form-alignment {
         justify-content: center!important;
         display: flex!important;
+    }
+
+    .merox-slider-area-content {
+        margin-top: 0;
+    }
+
+    .merox-single-slider {
+        height: 450px;
+    }
+    .btn-type-3 {
+        background: white;
+        color: #000000;
+        border-radius: 0;
+        padding: 0.5rem;
+    }
+
+    .section-title, .title-desig h3, .slider-area-btn {
+        text-align: center !important; 
+    }
+
+    .border-custom {
+        border: 4px solid;
+        width: 20%;
+        color: #39b54a;
+        margin: 0 auto !important;
+    }
+
+    img.hidemobile {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .footer-single-wedget {
+        text-align: center;
+    }
+    .footer-logo {
+        float: right;
+        line-height: 0;
+        padding: 0;
+        margin: 0;
+        margin-top: -1.5rem;
+        width: 90%;
     }
 }
 
