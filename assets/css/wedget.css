@@ -291,6 +291,7 @@ button.submit-btn {
 .footer-single-wedget .widget_nav_menu .menu li {
     margin-bottom: 7px;
     padding: 0;
+    list-style-type: none;
 }
 
 .footer-single-wedget .widget_nav_menu .menu li a {
@@ -304,7 +305,7 @@ button.submit-btn {
 }
 
 .footer-single-wedget .widget_nav_menu .menu li a:hover {
-    color: #ff60a3;
+    color: #ffffff;
     margin-left: 4px;
     font-family: 'Poppins', sans-serif;
 }
