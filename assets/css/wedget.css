@@ -376,12 +376,10 @@ button.submit-btn {
     vertical-align: middle;
     cursor: pointer;
 }
-
 .footer-single-wedget .custom-html-widget .contact-details li:hover i {
     background: #ff2782;
     color: #fff;
 }
-
 .footer-single-wedget .custom-html-widget .contact-details li i {
     width: 30px;
     height: 30px;
@@ -395,23 +393,18 @@ button.submit-btn {
     margin: 7px 12px 7px 0;
     transition: all .3s;
 }
-
 .footer-single-wedget .custom-html-widget .contact-details li:last-child {
     margin-bottom: 0;
 }
-
 /* footer copyright css */
 .merox-footer-area2 {
     background-color: #4e3ae5;
 }
-
 .footer-copyright p {
     color: #24262d;
     font-size: 16px;
     margin-bottom: 0;
 }
-
-
 .footer-copyright p a {
     color: #ff2782;
     font-weight: 700;
