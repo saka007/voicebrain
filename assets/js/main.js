@@ -14,10 +14,12 @@
     /*----------------------------
        		Main Slider Active
        	------------------------------*/
+    //$(".merox-main-slider")('owl.carousel').destroy();
+    
     $(".merox-main-slider").owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: true,
+        loop: false,
+        autoplay: false,
+        dots: false,
         nav: false,
         autoHeight:true,
         responsive: {

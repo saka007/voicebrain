@@ -2185,9 +2185,17 @@ ul.contact-info li a {
         letter-spacing: 0.01rem;
         font-weight: normal;
     }
+
+    .desktop_left {
+        margin-left: 6rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {  
+
+    .desktop-industry-section-1 {
+        text-align: justify;
+    }
 
     .slider-area .btn-type-3 {
         white-space: normal;
@@ -2204,6 +2212,21 @@ ul.contact-info li a {
 
     .slid-bg-1-index {
         background-image: url('assets/img/header/index-mobile.jpg');
+    }
+
+    .slid-bg-1-product {
+        background-image: url('assets/img/header/prodduct-mobile.png');
+    }
+
+    .slid-bg-1-benefit {
+        background-image: url('assets/img/header/benefit-mobile.png');
+    }
+
+    .slid-bg-1-industry {
+        background-image: url('assets/img/header/industry-mobile.png');
+    }
+    .slid-bg-1-company {
+        background-image: url('assets/img/header/company-mobile.png');
     }
 
     .hidedesktop {
