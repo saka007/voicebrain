@@ -2165,7 +2165,7 @@ ul.contact-info li a {
     }
     .slider-area .btn-type-3 {
         white-space: normal;
-        max-width: 15%;
+        max-width: 14%;
         font-size: 15px;
         font-weight: 600;
         line-height: 25px;
@@ -2448,4 +2448,13 @@ button.btn.btn-type-1 {
 }
 .empty {
     height: 1rem;
+}
+
+.section-title h5, .about-content h5 {
+    text-align: justify;
+    /* color: #000000; */
+    padding-top: 1rem;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 17px;
 }
