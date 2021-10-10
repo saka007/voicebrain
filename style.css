@@ -150,6 +150,10 @@ p {
     line-height: normal;
     color: #656970;
     letter-spacing: 0em;
+    text-align: justify;
+    color: #000000;
+    word-spacing: 5px;
+    line-height: 25px;
 }
 
 hr {
