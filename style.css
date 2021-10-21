@@ -189,13 +189,13 @@ label {
 }
 
 *::-moz-placeholder {
-    color: #555555;
+    color: #57bf42;
     font-size: 14px;
     opacity: 1;
 }
 
 *::placeholder {
-    color: #555555;
+    color: #57bf42;
     font-size: 14px;
     opacity: 1;
 }
@@ -2252,7 +2252,7 @@ ul.contact-info li a {
         margin-top: 25px;
     }
     #merox-section3 {
-        background: url(assets/img/benefit/mobile-section3.jpg);
+        background: url('assets/img/benefit/mobile-section3.jpg');
         background-size: cover;
         background-position: right;
         margin-bottom: 3rem;
@@ -2521,9 +2521,9 @@ button.btn.btn-type-1 {
     }
     #merox-section-footer {
         background: url(assets/img/benefit/footer_image.png);
-        background-size: 130%;
+        background-size: 128%;
         background-repeat: no-repeat;
-        background-position: right;
+        /* background-position: right; */
     }
     .footer-logo {
         margin-top: -2rem;
@@ -2545,6 +2545,61 @@ button.btn.btn-type-1 {
     }
     .mobile_align_center {
         text-align: center;
+    }
+    .slid-bg-1-index {
+        background-image: url('assets/img/header/index-mobile.jpg');
+    }
+
+    .slid-bg-1-product {
+        background-image: url('assets/img/header/prodduct-mobile.png');
+    }
+
+    .slid-bg-1-benefit {
+        background-image: url('assets/img/header/benefit-mobile.png');
+    }
+
+    .slid-bg-1-industry {
+        background-image: url('assets/img/header/industry-mobile.png');
+    }
+    .slid-bg-1-company {
+        background-image: url('assets/img/header/company-mobile.png');
+    }
+    .appnox-contact-form-area {
+        width: 245px;
+    }
+    .footer-form {
+        margin-left: 7rem;
+    }
+    .merox-subscribe-area {
+        background-image: url('assets/img/header/newsletterbg-mob.jpg');
+    }
+    .tab_pad {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    .benefit-section1 {
+        background-image: none ;
+        margin-bottom: 30px;
+    }
+    .hide-padding-tab {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .benefit-section2 {
+        background-size: cover;
+        min-height: auto;
+    }
+    #merox-section3 {
+        background-image: url('assets/img/benefit/section3-tablet.png');
+        background-size: cover;
+        min-height: 45vh;
+        margin-bottom: 70px;
+    }
+    .header-row-tablet {
+        margin-top: 20px;
+    }
+    .entertainment {
+        margin-bottom: 50px;
     }
 }
 
