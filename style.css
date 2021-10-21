@@ -2601,6 +2601,12 @@ button.btn.btn-type-1 {
     .entertainment {
         margin-bottom: 50px;
     }
+    .tab-padding {
+        padding-top: 8rem;
+    }
+    .row.header-row-mobile {
+        padding-top: 2rem;
+    }
 }
 
 .about-single-counter ul {
