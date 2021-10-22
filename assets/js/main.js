@@ -5,9 +5,9 @@
        		Preloader Active
        	------------------------------*/
 
-    $(window).on('load', function () {
-        $(".preloader").fadeOut(500);
-    });
+    // $(window).on('load', function () {
+    //     $(".preloader").fadeOut(50000000);
+    // });
 
 
 
