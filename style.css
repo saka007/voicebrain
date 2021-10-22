@@ -2076,6 +2076,7 @@ ul.contact-info li a {
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 2rem;
   }
   .text-left.benfit-section3 {
     background-color: #0e50b2b3;
@@ -2144,7 +2145,7 @@ ul.contact-info li a {
         line-height: 0;
         padding: 0;
         margin: 0;
-        margin-top: -3rem;
+        margin-top: -1rem;
     }
     .benefit-section1 {
         background-image: url(assets/img/benefit/section1-bg.png);
@@ -2520,12 +2521,12 @@ button.btn.btn-type-1 {
     }
     #merox-section-footer {
         background: url(assets/img/benefit/footer_image.png);
-        background-size: 128%;
+        background-size: 140%;
         background-repeat: no-repeat;
-        /* background-position: right; */
+        background-position: right;
     }
     .footer-logo {
-        margin-top: -2rem;
+        margin-top: 0rem;
     }
     .slider-area .btn-type-3 {
         white-space: normal;
