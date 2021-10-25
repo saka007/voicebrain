@@ -2521,12 +2521,12 @@ button.btn.btn-type-1 {
     }
     #merox-section-footer {
         background: url(assets/img/about/footer-tab-upd.png);
-        background-size: 100%;
+        background-size: 110%;
         background-repeat: no-repeat;
         /* background-position: right; */
     }
     .footer-logo {
-        margin-top: -1.5rem;
+        margin-top: 0rem;
     }
     .slider-area .btn-type-3 {
         white-space: normal;
