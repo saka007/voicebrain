@@ -2520,13 +2520,13 @@ button.btn.btn-type-1 {
         text-align: center;
     }
     #merox-section-footer {
-        background: url(assets/img/benefit/footer_image.png);
-        background-size: 140%;
+        background: url(assets/img/about/footer-tab-upd.png);
+        background-size: 100%;
         background-repeat: no-repeat;
-        background-position: right;
+        /* background-position: right; */
     }
     .footer-logo {
-        margin-top: 0rem;
+        margin-top: -1.5rem;
     }
     .slider-area .btn-type-3 {
         white-space: normal;
